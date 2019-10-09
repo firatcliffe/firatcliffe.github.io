@@ -37,8 +37,12 @@ p {
   margin-bottom: 1rem;
 }
 
-.site-menu {
+ul.site-menu {
   list-style: none;
   margin-top: 1.5rem;
   padding: 0;
+}
+
+ul.site-menu>li{
+  margin-bottom:0.25rem;
 }
