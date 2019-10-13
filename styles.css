@@ -46,3 +46,11 @@ ul.site-menu {
 ul.site-menu > li {
   margin-bottom: 0.25rem;
 }
+
+col:nth-child(odd) {
+  background:red;
+}
+
+col:nth-child(even) {
+  background:green;
+}
