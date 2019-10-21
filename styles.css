@@ -31,6 +31,7 @@ a:hover {
 
 p {
   margin: 0;
+  margin-left: 0.75rem;
 }
 
 .row {
@@ -41,16 +42,9 @@ ul.site-menu {
   list-style: none;
   margin-top: 1.5rem;
   padding: 0;
+  position: absolute;
 }
 
 ul.site-menu > li {
   margin-bottom: 0.25rem;
-}
-
-col:nth-child(odd) {
-  background:red;
-}
-
-col:nth-child(even) {
-  background:green;
 }
